@@ -4,8 +4,7 @@ public class AlphabeticalList {
     public static void main(String[] args) throws IOException {
         String movies = "data/movies.csv";
         BufferedReader bufferedReader = new BufferedReader(new FileReader(movies));
-
-
+        
         String line = "";
         String cvsSplitBy = ",";
         String[] singer;
